@@ -4,7 +4,7 @@ const web3 = new Web3('https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID');
 const contractAddress = '0xYourContractAddress';
 
 const abi = [
-    // ABI do contrato inteligente
+    // ABI 
     {
         "constant": false,
         "inputs": [{"name": "predictedResult", "type": "string"}],
